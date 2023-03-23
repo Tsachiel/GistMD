@@ -1,0 +1,109 @@
+.onboarding {
+  width: 289px;
+  position: relative;
+  left: 19px;
+  top: 180px;
+  height: auto;
+  font-size: 29px;
+  margin: 0 auto;
+
+}
+.total {
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .total:focus {
+    color: #171e29;
+  }
+  
+  .total:hover {
+    
+    border-color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    fill: rgb(255, 0, 0);
+  }
+  
+  .total:active {
+    border-color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    fill: rgb(255, 0, 0);
+  }
+  
+  @media (min-width: 768px) {
+    .total{
+      min-width: 170px;
+    }
+  }
+ .button {
+  background: #426eff;
+  border: 1px solid #426eff; 
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin-top:6px;
+}
+
+.button:hover,
+.button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #426eff;
+}
+
+ .button:active {
+  opacity: .5;
+}
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.stagesNumbers {
+  font-weight: bold;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  color: #426eff;
+  font-size: 36px;
+}

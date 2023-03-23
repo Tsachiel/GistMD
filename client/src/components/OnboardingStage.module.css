@@ -1,0 +1,78 @@
+  .options{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 5px;
+    height: 292px;
+    overflow: auto;
+  }
+
+  .option {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 32px;
+    overflow: hidden;
+    white-space: break-spaces;
+    word-wrap: break-word;
+    min-height: 95px;
+  }
+
+  .option img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .option p{
+    width: 100%;
+    text-align: left;
+    line-height: 51px;
+  }
+  
+  .option:hover p{
+    border-color: rgb(10, 248, 200);
+    color: black;
+    fill: rgb(10, 248, 200);
+    background-color: rgb(10, 248, 200) ;
+  }
+
+
+  .selected{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 32px;
+    overflow: hidden;
+    white-space: break-spaces;
+    word-wrap: break-word;
+    min-height: 95px;
+  }
+
+  .selected img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .selected p{
+    width: 100%;
+    text-align: left;
+    line-height: 51px;
+    border-color: rgb(10, 248, 200);
+    color: black;
+    fill: rgb(10, 248, 200);
+    background-color: rgb(10, 248, 200) ;
+  }
+
+  .intro {
+    font-weight: bold;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    color: #050916;
+  }
+  .titleAndDescription {
+    font-weight: bold;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    color: #06f;
+    font-size:21px;
+  }
